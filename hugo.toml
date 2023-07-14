@@ -4,7 +4,7 @@ defaultContentLanguage = "en-us"
 title = "Alona's tech blog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "alonat-tech"
-googleAnalytics = "396749271"
+googleAnalytics = "G-B10D1B93B3"
 paginate = 7
 canonifyurls = true
 
