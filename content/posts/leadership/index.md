@@ -1,5 +1,5 @@
 ---
-title: "Things I've learned after a year and a half in a leadership position."
+title: "Things I've learned after almost two years in a leadership position."
 date: 2023-10-12T12:38:55+02:00
 draft: false
 ---
