@@ -44,6 +44,9 @@
             display:   block;
             width:     auto;
             max-width: 100%;
+            .center {
+                display: inline-block;
+            }
         }
         :not(blockquote):not(li):not(.alert) {
             & > p {

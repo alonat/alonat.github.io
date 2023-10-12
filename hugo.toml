@@ -21,6 +21,8 @@ canonifyurls = true
     endLevel = 3
     ordered = false
     startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [author]
   name = "Alona Khaniukova"
