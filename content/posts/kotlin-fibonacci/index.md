@@ -1,5 +1,5 @@
 ---
-title: "Fibonacci"
+title: "Explore Kotlin with a Fibonacci sequence"
 date: 2023-10-23T12:38:55+02:00
 draft: false
 math: true
