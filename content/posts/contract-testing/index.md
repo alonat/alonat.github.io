@@ -4,8 +4,6 @@ date: 2023-12-15T17:00:00+02:00
 draft: false
 ---
 
-## Introduction
-
 Ensuring seamless communication between
 frontend and backend systems is paramount in the ever-evolving software development landscape. Unit tests fail to guarantee 
 end-to-end correctness, and exhaustive end-to-end tests can be impractical. This is where contract testing steps in, offering a
