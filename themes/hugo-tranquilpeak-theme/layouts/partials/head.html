@@ -58,8 +58,6 @@
       {{ end }}
     {{ end }}
 
-    {{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
-
     {{ if or .Params.googleAnalytics.async .Params.ga.async }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ else }}
