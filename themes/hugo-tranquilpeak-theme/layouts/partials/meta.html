@@ -58,7 +58,7 @@
   {{ end }}
 {{ end }}
 
-<meta property="og:image" content="{{ .Params.ogImage | absURL }}">
+<meta property="og:image" content="{{ .Site.Params.ogImage }}">
 
 {{ with .Params.gallery }}
   {{ range . }}
