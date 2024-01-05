@@ -1,5 +1,5 @@
 ---
-title: "Learning Curve Revolution: Why It Pays to Celebrate Mistakes at Work"
+title: "Embrace, Learn, Grow: The Case for Celebrating Mistakes at Work"
 date: 2024-01-05T13:00:00+02:00
 draft: false
 ogImage: "images/mistakes.png"
