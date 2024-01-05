@@ -9,6 +9,10 @@ Mistakes - a word that often freaks us out at work. But times are changing, and 
 to look at mistakes differently. In this post, let's dig into why celebrating mistakes is crucial and how 
 it can actually help both you and your workplace.
 
+<p class="text-center">
+    <img src="./mistakes.png" class="center" alt="Screenshot from the IDE"/>
+</p>
+
 ## The Fear of Messing Up
 
 Let's be honest - everyone's scared of messing up. Even if your boss says it's cool to learn from mistakes, 
