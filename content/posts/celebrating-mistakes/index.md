@@ -1,8 +1,8 @@
 ---
-title: "Embracing Mistakes"
+title: "Learning Curve Revolution: Why It Pays to Celebrate Mistakes at Work"
 date: 2024-01-05T13:00:00+02:00
 draft: false
-ogImage: "images/mistakes.png"
+ogImage: "images/celebrating-mistakes.png"
 ---
 
 Mistakes - a word that often freaks us out at work. But times are changing, and more leaders say it's time 
