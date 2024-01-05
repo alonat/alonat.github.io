@@ -1,5 +1,5 @@
 ---
-title: "Embracing Mistakes: A Celebration of Growth at Work"
+title: "Embracing Mistakes"
 date: 2024-01-05T13:00:00+02:00
 draft: false
 ogImage: "images/mistakes.png"
