@@ -58,8 +58,14 @@
   {{ end }}
 {{ end }}
 
-{{ with .Site.Params.ogImage }}
-<meta property="og:image" content="{{ . | absURL }}">
+{{ if .Param "ogImage" }}
+  {{ with .Param "ogImage" }}
+    <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
+{{ else }}
+  {{ with .Site.Params.ogImage }}
+    <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
 {{ end }}
 
 {{ with .Params.gallery }}
