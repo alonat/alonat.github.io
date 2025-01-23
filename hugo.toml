@@ -26,9 +26,9 @@ canonifyurls = true
 
 [author]
   name = "Alona Khaniukova"
-  bio = "I'm a Team/Tech Leader from **Ukraine**"
-  job = "Team/Tech Leader"
-  location = "Wroclaw, Poland"
+  bio = "I do cool stuff together with AllegroPay team"
+  job = "Engineering Manager"
+  location = "Warsaw, Poland"
   gravatarEmail = "alona.tolstaya@gmail.com"
   picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
 
