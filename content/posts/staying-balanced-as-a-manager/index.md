@@ -1,7 +1,8 @@
 ---
 title: "When Deadlines Loom and Scope Is Undefined: Staying Balanced as a Manager"
-date: 2025-01-27T13:00:00+02:00
-draft: true
+date: 2025-01-26T17:00:00+02:00
+draft: false
+ogImage: "images/balancing-manager.jpg"
 ---
 
 ### Preconditions  
