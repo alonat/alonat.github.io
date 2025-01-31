@@ -1,14 +1,17 @@
 ---
 title: "Embracing Confidence with Contract Testing: A Frontend Perspective"
 date: 2023-12-15T17:00:00+02:00
+lastmod: 2025-31-01T09:00:00+02:00
 draft: false
 ---
 
-How often do you face the issue where the backend updates something and breaks a contract for the frontend? Or what about the frontend stopping the use of certain fields but not informing the backend team about the redundancy? Probably too often, right?
+How often do you face the issue where the backend updates something and breaks a contract for the frontend? Or what about the frontend stopping the use of certain fields but not informing the backend team about the redundancy? **Probably too often, right?**  
 
-There’s no silver bullet for situations like these, but I do have a recommendation worth considering.
+There’s no **silver bullet** for situations like these, but I do have a recommendation worth considering.  
 
-Have you heard that contract testing is the ultimate solution to fix all communication and collaboration problems between frontend and backend teams? But is that really true? Let’s weigh the pros and cons to find out.
+Have you heard that **contract testing** is the ultimate solution to fix all communication and collaboration problems between frontend and backend teams? But **is that really true?** Let’s weigh the **pros and cons** to find out.  
+
+Also, at the very end of the article, I’ve added **summed-up feedback from the field.**
 
 ## Contract Testing and Pact
 
@@ -185,4 +188,11 @@ Contract testing, particularly from a frontend perspective, is not just a step t
 strategic investment in the longevity and resilience of our systems. The balance between pros and cons and an  
 easy-to-use CI workflow positions contract testing as an essential practice in our development journey.
 
-Seems like such a cool technology and cure for a lot of "deseases", right? But let's also go through the feedback of those, who have been using this setup for more than a year.
+Seems like such a cool technology and a cure for a lot of **diseases**, right? But let's also go through the feedback from those who have been using this setup for **more than a year**.  
+
+It looks like **contract testing** is one of those things that sounds great in theory but can be a **mixed bag** in reality. Some teams swear by it, saying it’s a solid way to ensure **reliable communication** between services without dealing with **flaky end-to-end tests**. Others? They’ve tried it, **hated it**, and happily ripped it out.  
+
+The biggest issue seems to be **setup and maintenance**—it takes effort, and if teams on **both sides** of the contract aren’t fully committed, it quickly becomes **useless**. Some folks found it so cumbersome that it **never even caught meaningful bugs**, making it feel like a **wasted investment**. And if your org already has a **solid dev environment**, you might have **simpler (and cheaper) ways** to validate dependencies without the overhead of contract tests.  
+
+At the end of the day, it comes down to **whether the effort is worth it for your team**. If contract testing fits naturally into your workflow and you can get **buy-in from all teams involved**, it might be a great tool. But if it’s just adding **complexity without solving real problems**, maybe it’s **not the holy grail of API stability** after all.
+
