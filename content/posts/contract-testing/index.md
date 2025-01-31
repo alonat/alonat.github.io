@@ -56,12 +56,11 @@ showcases the effectiveness of our development processes. Additionaly, you don't
 
 ### Pact and Jest: A Powerful Duo for Frontend Developers
 
-Pact integrates seamlessly with Jest, a popular testing framework for JavaScript. This compatibility is a
-game-changer for frontend developers already familiar with Jest. Leveraging this familiarity, frontend teams
-can transition smoothly into writing contract tests, ensuring a unified and efficient testing experience across the development stack.
+Pact works smoothly with Jest, one of the most popular testing frameworks for JavaScript. And honestly, that’s a game-changer for frontend teams already using Jest—no need to learn a whole new tool just to add contract testing.
 
-Contract testing allows developers to test components in isolation, without requiring a full integration test.
-This focused testing approach improves efficiency and enables quick feedback on potential issues.
+By leveraging this setup, frontend devs can jump into writing contract tests without much friction, keeping the testing process unified and efficient across the stack.
+
+Plus, contract testing lets you check components in isolation without spinning up full integration tests. That means faster feedback, fewer headaches, and a more streamlined dev experience. And you know what? Developers won't forget to run those tests as they are in your repo.
 
 ### Understanding Contract Tests
 
@@ -70,27 +69,26 @@ adheres to the agreed-upon contracts. In the context of frontend development, a 
 the expected interactions between the frontend and backend services.
 
 #### Required Fields for a Contract Test:
-
-1. **Provider:**
+1. **Provider:**  
    The service providing the API, typically the backend service.
 
-2. **Consumer:**
-   The service consuming the API, often the frontend application.
+2. **Consumer:**  
+   The service consuming the API, often the frontend application or some backend service that uses another API service as a consumer.
 
-3. **Interaction:**
-   Describes a specific interaction between the consumer and provider. It includes the expected request, the response
+3. **Interaction:**  
+   Describes a specific interaction between the consumer and provider. It includes the expected request, the response  
    the provider should give, and any associated metadata.
 
-4. **State (optional):**
-   Describes the state of the provider before the interaction occurs. This is particularly useful for scenarios where
+4. **State (optional):**  
+   Describes the state of the provider before the interaction occurs. This is particularly useful for scenarios where  
    the outcome depends on the current state of the system.
 
-5. **Upon Receiving:**
-   A unique identifier for the interaction, often combined with the state to create a distinct value.
+5. **Upon Receiving:**  
+   A unique identifier for the interaction, often combined with the state to create a distinct value.  
    This uniqueness is crucial to avoid overwriting previous tests and ensures each contract test captures specific scenarios.
 
-These key fields form the foundation of a contract test, providing a comprehensive definition of the expected behavior
-between frontend and backend services. The consumer's expectations are captured in the interaction, allowing for thorough
+These key fields form the foundation of a contract test, providing a comprehensive definition of the expected behavior  
+between frontend and backend services. The consumer's expectations are captured in the interaction, allowing for thorough  
 validation and documentation.
 
 ### Small example
@@ -181,11 +179,10 @@ This versioning approach allows us to track changes and maintain a clear history
 By defining clear contracts, contract testing helps teams to communicate and collaborate more effectively. 
 This structured approach promotes a shared understanding of API expectations, reducing the likelihood of miscommunications.
 
-## Conclusion
+## Conclusion & feedback from developers
 
-Contract testing, particularly from a frontend perspective, is not just a step towards more reliable communication but a
-strategic investment in the longevity and resilience of our systems. The balance between pros and cons and an
+Contract testing, particularly from a frontend perspective, is not just a step towards more reliable communication but a  
+strategic investment in the longevity and resilience of our systems. The balance between pros and cons and an  
 easy-to-use CI workflow positions contract testing as an essential practice in our development journey.
 
-As we embrace this testing paradigm, we pave the way for a future where frontend and backend communication is not just a
-technical requirement but a seamless and confident collaboration.
+Seems like such a cool technology and cure for a lot of "deseases", right? But let's also go through the feedback of those, who have been using this setup for more than a year.
